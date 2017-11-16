@@ -1,0 +1,75 @@
+h1{
+  font-weight: 10px;
+  font-family: "Aldrich 100"
+}
+h2{
+font-size:70px;
+font-family: "Exo-Thin";
+}
+body{
+  font-family: "Exo-Thin";
+  font-size:70px;
+  line-height: 90px;
+
+}
+h1,body{
+  margin-top: 360px;
+  margin-left: 180px;
+}
+/********************************
+    Button
+********************************/
+button {
+    font-family: "Exo-Thin";
+    position: relative;
+    box-shadow: 0 3px #999;
+    border-radius: 10px;
+    font-size: 38px;
+    color: #FFFFFF;
+    background: #FF7784;
+    width: 360px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.email{
+  font-size: 30px;
+  padding: 20px;
+  width: 480px;
+}
+
+#content {
+    position: relative;
+}
+#content img {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    margin-left: 490px;
+    top: 30px;
+    right: 180px;
+}
