@@ -1,0 +1,21 @@
+h2{
+  font-family: "Exo-Regular";
+  font-size:70px;
+  margin-top:150px;
+  text-align:center;
+
+}
+body{
+  font-family: "Exo-Thin";
+  text-align:center;
+  font-size: 44px;
+}
+p{
+  text-align: left;
+  justify-content: center;
+}
+img{
+  max-width:80%;
+  height:100px;
+  justify-content: center;
+}
