@@ -74,7 +74,7 @@ img.resize {
 }
 #slide1{
   min-height: 800px;
-  background:url('../assets/image2.jpg') no-repeat 0 -800px  ;
+  background:url('../assets/img2bw.jpg') no-repeat 0 -800px  ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -82,7 +82,7 @@ img.resize {
 }
 #slide2{
   min-height: 1200px;
-  background:url('../assets/4a.jpg') no-repeat 0 -20px  ;
+  background:url('../assets/4atext.jpg') no-repeat 0 -20px  ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
