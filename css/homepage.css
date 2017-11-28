@@ -4,14 +4,13 @@ h1{
 }
 h2{
   font-family: 'Exo-thin', sans-serif;
-  font-size:50px;
+  font-size:45px;
   text-align: left;
 }
 body{
   font-family: "Exo-Thin";
   font-size:80px;
   line-height: 110px;
-  -webkit-font-smoothing: antialiased;
 }
 p{
   font-size: 35px;
@@ -24,7 +23,7 @@ p{
 hr{
     border: 0;
     border-top: 3px solid rgba(255,67,81,0.75);
-    display: block;
+    /*display: block;*/
     height: 1px;
     margin: 1em 0;
     margin-left: 110px;
@@ -37,10 +36,6 @@ hr{
   /*text-align: center;*/
   /*margin: 0 auto;*/
 }
-/**{
-    margin: 0;
-    padding: 0;
-}*/
 a {
     border-radius: 5px;
     color:white;
@@ -70,11 +65,7 @@ a:hover {
 /***********************************
             Images
 ************************************/
-/*img.one {
-  display:block;
-  padding-top:55px;
-  margin-top : 95px;
-}*/
+
 img.resize {
   /*margin-bottom: -300px;*/
   padding-left: 30px;
@@ -85,8 +76,8 @@ img.resize {
 }
 #slide1{
 
-  min-height: 700px;
-  background:url('../assets/img2bw.jpg') no-repeat 0 -100px  ;
+  min-height: 550px;
+  background:url('../assets/image2.jpg') no-repeat 0 -300px  ;
   background-size:cover;
   /*min-height: 800px;*/
   -moz-background-size: cover;
@@ -95,7 +86,7 @@ img.resize {
 }
 #slide2{
   min-height: 700px;
-  background:url('../assets/4atext.jpg') no-repeat 0 90px  ;
+  background:url('../assets/4atext.jpg') no-repeat 0 -20px  ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -214,7 +205,7 @@ li a {
 
 li a:hover {
     background-color: #111111;
-
+}
 .fa-facebook {
     padding:10px 14px;
     -o-transition:.5s;
